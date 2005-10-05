@@ -1,31 +1,33 @@
 
-%define pkgname mime-construct
-%define filelist %{pkgname}-%{version}-filelist
+%define filelist mime-construct-%{version}-filelist
 
-name:		perl-mime-construct
-summary:	mime-construct - construct - construct and optionally mail MIME messages
-version:	1.9
-release:	1
-vendor:		Roderick Schertler <roderick@argon.org>
-license:	Artistic
+Summary:	mime-construct - construct and optionally mail MIME messages
+Summary(pl):	mime-construct - tworzenie i opcjonalnie wysy³anie wiadomo¶ci MIME
+Name:		perl-mime-construct
+Version:	1.9
+Release:	1
+Vendor:		Roderick Schertler <roderick@argon.org>
+License:	Artistic
 Group:		Applications/Mail
-URL:		http://www.cpan.org
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Source0:	http://search.cpan.org/CPAN/authors/id/R/RO/ROSCH/mime-construct-%{version}.tar.gz
+URL:		http://search.cpan.org/dist/mime-construct/
 BuildArch:	noarch
-Source0:	http://search.cpan.org//CPAN/authors/id/R/RO/ROSCH/mime-construct-%{version}.tar.gz
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 mime-construct constructs and (by default) mails MIME messages. It
 is entirely driven from the command line, it is designed to be used by
 other programs, or people who act like programs.
 
-# # This package was generated automatically with the cpan2rpm #
-utility. To get this software or for more information # please visit:
-http://perl.arix.com/ #
+%description -l pl
+mime-construct tworzy i (domy¶lnie) wysy³a wiadomo¶ci MIME. Jest
+sterowane ca³kowicie z linii poleceñ i zosta³o zaprojektowane z my¶l±
+o u¿ywaniu przez inne programy lub ludzi zachowuj±cych siê jak
+programy.
 
 %prep
 %setup -q -n mime-construct-%{version}
-chmod -R u+w %{_builddir}/%{pkgname}-%{version}
+chmod -R u+w %{_builddir}/mime-construct-%{version}
 
 %build
 grep -rsl '^#!.*perl' . |
