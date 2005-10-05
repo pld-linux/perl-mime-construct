@@ -12,6 +12,7 @@ Vendor:		Roderick Schertler <roderick@argon.org>
 License:	GPL v2+
 Group:		Applications/Mail
 Source0:	http://search.cpan.org/CPAN/authors/id/R/RO/ROSCH/mime-construct-%{version}.tar.gz
+# Source0-md5:	727a5b622fae6e2800caffae9b034f24
 URL:		http://search.cpan.org/dist/mime-construct/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
