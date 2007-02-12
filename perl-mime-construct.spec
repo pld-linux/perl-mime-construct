@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	mime-construct - construct and optionally mail MIME messages
-Summary(pl):	mime-construct - tworzenie i opcjonalnie wysy≥anie wiadomo∂ci MIME
+Summary(pl.UTF-8):   mime-construct - tworzenie i opcjonalnie wysy≈Çanie wiadomo≈õci MIME
 Name:		perl-mime-construct
 Version:	1.9
 Release:	1
@@ -24,10 +24,10 @@ mime-construct constructs and (by default) mails MIME messages. It
 is entirely driven from the command line, it is designed to be used by
 other programs, or people who act like programs.
 
-%description -l pl
-mime-construct tworzy i (domy∂lnie) wysy≥a wiadomo∂ci MIME. Jest
-sterowane ca≥kowicie z linii poleceÒ i zosta≥o zaprojektowane z my∂l±
-o uøywaniu przez inne programy lub ludzi zachowuj±cych siÍ jak
+%description -l pl.UTF-8
+mime-construct tworzy i (domy≈õlnie) wysy≈Ça wiadomo≈õci MIME. Jest
+sterowane ca≈Çkowicie z linii polece≈Ñ i zosta≈Ço zaprojektowane z my≈õlƒÖ
+o u≈ºywaniu przez inne programy lub ludzi zachowujƒÖcych siƒô jak
 programy.
 
 %prep
