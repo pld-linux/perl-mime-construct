@@ -7,7 +7,7 @@ Summary:	mime-construct - construct and optionally mail MIME messages
 Summary(pl.UTF-8):	mime-construct - tworzenie i opcjonalnie wysyłanie wiadomości MIME
 Name:		perl-mime-construct
 Version:	1.9
-Release:	1
+Release:	2
 Vendor:		Roderick Schertler <roderick@argon.org>
 License:	GPL v2+
 Group:		Applications/Mail
