@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	mime-construct - construct and optionally mail MIME messages
 Summary(pl.UTF-8):	mime-construct - tworzenie i opcjonalnie wysyłanie wiadomości MIME
 Name:		perl-mime-construct
